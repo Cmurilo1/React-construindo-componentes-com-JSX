@@ -58,6 +58,18 @@ function CampoDeDigitacao({ label, tipo, placeholder, value, setValor }) {
                 <button type='submit' className='form__botao'>{children}</button>
             )
         }
+function Checkbox(){
+    return(
+        <>
+        <div className='form__campo-checkbox'>
+            <input type='checkbox' id='lembrar' />
+            <label For='lembrar'/>
+        </div>
+        <p className='form__opcoes-texto'>Lembrar-me</p>
+        </>
+    )
+}
+
 
         function PaginaDeLogin() {
             const[email ,setEmail] = React.useState('');
@@ -84,7 +96,17 @@ const handleSubmit = (evente) => {
                             />
                             <CampoDeDigitacao label='Senha'
                                 tipo='password'
-                                placeholder='Digite a sua senha' />
+                                placeholder='Digite a sua senha'
+                                value ={senha}
+                                setValor={setSenha}
+                            />
+
+                            <fildset className ='form__opcoes'>  
+                            <Checkbox />
+                            <p>
+                                <a href='#' aria-label='Recuperar senha esquecida'>Esqueci minha senha</a>
+                            </p>
+                            </fildset>
                             <Botao>Login</Botao>
                         </form>
                     </section>

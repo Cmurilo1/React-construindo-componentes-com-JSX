@@ -1,0 +1,12 @@
+.form_botao {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--verde-botao);
+  color: var(--fundo-pagina);
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 0.5rem; /* Espaçamento menor */
+}

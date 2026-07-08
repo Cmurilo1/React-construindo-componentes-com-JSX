@@ -1,0 +1,119 @@
+:root {
+  --fundo-pagina: #0f1419;
+  --verde-botao: #d4ff99;
+  --cinza-borda: #333840;
+  --texto-principal: #e0e0e0;
+  --texto-claro: #f0f0f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.pagina-login {
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--fundo-pagina);
+  color: var(--texto-principal);
+}
+
+/* ✅ Volta a aparecer a imagem lateral */
+.imagem-lateral {
+  width: 50%;
+}
+.imagem-lateral img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.formulario-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.form-login {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.form-login h2 {
+  text-align: center;
+  color: white;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.grupo-campo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.grupo-campo input {
+  padding: 0.8rem;
+  border: 1px solid var(--cinza-borda);
+  border-radius: 6px;
+  background-color: transparent;
+  color: var(--texto-principal);
+}
+
+.opcoes-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.esqueci-senha {
+  color: var(--verde-botao);
+  text-decoration: none;
+  white-space: nowrap; /* Não deixa o texto cortar */
+}
+
+/* ✅ LINHAS LATERais APARECENDO */
+.container-links_titulo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--texto-claro);
+  font-size: 15px;
+  margin: 1rem 0 0.5rem;
+}
+.container-links_titulo::before,
+.container-links_titulo::after {
+  content: '';
+  flex-grow: 1;
+  height: 1px;
+  background-color: var(--cinza-borda);
+}
+
+.container-links ul {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  list-style: none;
+}
+.container-links img {
+  width: 32px;
+  height: 32px;
+}
+
+.cadastro-texto {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 0.8rem;
+}
+.link-cadastro {
+  color: var(--verde-botao);
+  text-decoration: none;
+}

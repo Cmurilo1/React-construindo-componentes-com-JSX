@@ -38,4 +38,4 @@ Após baixar o projeto, você pode abrir com o Visual Studio Code. Para isso, na
 - Procure o local onde o projeto está e o selecione (Caso o projeto seja baixado via zip, é necessário extraí-lo antes de procurá-lo)
 - Por fim clique em OK
 
-Você pode abrir diretamente o arquivo index.html no seu navegador ou usar uma extensão como o ``Live Server``.
+Você pode abrir diretamente o arquivo index.html no seu navegador ou para rodar no vs-code usar o "npm run dev"

@@ -1,0 +1,9 @@
+.titulo {
+  text-align: center;
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  /* Garante que o texto não quebre de forma errada */
+  white-space: normal;
+  word-break: normal;
+}

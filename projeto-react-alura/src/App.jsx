@@ -7,10 +7,10 @@ import Checkbox from './Checkbox.jsx'
 import './styles/PaginaDeLogin.css'
 import './styles/styles.css'
 
-// Caminhos exatos das imagens (estão na pasta public/img)
+// Caminhos corretos das imagens
 const github = "/img/Github.svg"
-const google = "/img/Google.svg"
-const imagemLogin = "/public/imagem-login.png"
+const linkedin = "/img/Linkedin.svg"
+const imagemLogin = "/public/imagem-Login.png"
 
 function App() {
   const [email, setEmail] = useState("")
@@ -60,8 +60,16 @@ function App() {
 
           <div className="container-links">
             <ul>
-              <li><a href="#"><img src={github} alt="Ícone GitHub" /></a></li>
-              <li><a href="#"><img src={google} alt="Ícone Google" /></a></li>
+              <li>
+                <a href="https://github.com/Cmurilo1" target="_blank" rel="noopener noreferrer">
+                  <img src={github} alt="Meu GitHub" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/cmurilo1" target="_blank" rel="noopener noreferrer">
+                  <img src={linkedin} alt="Meu LinkedIn" />
+                </a>
+              </li>
             </ul>
           </div>
 

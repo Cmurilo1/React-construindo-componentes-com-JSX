@@ -3,10 +3,10 @@
   padding: 0.8rem;
   border: none;
   border-radius: 6px;
-  background-color: var(--verde-botao);
-  color: var(--fundo-pagina);
+  background-color: #d4ff99; /* Cor verde certa */
+  color: #0f1419;
   font-weight: bold;
   font-size: 1rem;
   cursor: pointer;
-  margin-top: 0.5rem; /* Espaçamento menor */
+  margin-top: 0.5rem;
 }

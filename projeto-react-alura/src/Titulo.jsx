@@ -1,8 +1,7 @@
+import './styles/Titulo.css'
 
-function Titulo({ children }) {
-  return (
-    <h1 className='form__titulo'>{children}</h1>
-  );
+const Titulo = ({ children }) => {
+  return <h2 className="titulo">{children}</h2>
 }
 
-export default Titulo;
+export default Titulo

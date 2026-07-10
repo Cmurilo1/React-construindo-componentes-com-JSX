@@ -10,7 +10,7 @@ import './styles/styles.css'
 // Caminhos corretos das imagens
 const github = "/img/Github.svg"
 const linkedin = "/img/Linkedin.svg"
-const imagemLogin = "/public/imagem-Login.png"
+const imagemLogin = "/img/imagem-Login.png"
 
 function App() {
   const [email, setEmail] = useState("")

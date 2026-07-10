@@ -52,7 +52,7 @@ function App() {
             <a href="#" className="esqueci-senha">Esqueci a senha</a>
           </div>
 
-          <Botao type="submit">Login →</Botao>
+         <Botao type="submit">Login →</Botao>
 
           <div className="container-links_titulo">
             ou entre com outras contas

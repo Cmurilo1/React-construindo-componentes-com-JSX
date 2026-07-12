@@ -48,8 +48,8 @@ function App() {
           />
 
           <div className="opcoes-form">
-            <Checkbox />
-            <a href="#" className="esqueci-senha">Esqueci a senha</a>
+            <Checkbox>Lembrar-me</Checkbox>
+            <a href="#" className="esqueci-a-senha">Esqueci a senha</a>
           </div>
 
          <Botao type="submit">Login →</Botao>

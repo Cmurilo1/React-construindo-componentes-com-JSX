@@ -18,7 +18,7 @@ function App() {
 
   const handleSubmit = (evento) => {
     evento.preventDefault()
-    console.log('Login:', { email, senha })
+    console.log('Login:', email, senha)
   }
 
   return (
@@ -31,7 +31,6 @@ function App() {
       {/* Área do formulário */}
       <div className="formulario-container">
         <form className="form-login" onSubmit={handleSubmit}>
-          
           <Titulo>Acesse sua conta</Titulo>
 
           <CampoDeDigitacao
@@ -52,7 +51,7 @@ function App() {
             <a href="#" className="esqueci-a-senha">Esqueci a senha</a>
           </div>
 
-         <Botao type="submit">Login →</Botao>
+          <Botao type="submit">Entrar</Botao>
 
           <div className="container-links_titulo">
             ou entre com outras contas
@@ -66,17 +65,16 @@ function App() {
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/cmurilo1" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/cmurilol" target="_blank" rel="noopener noreferrer">
                   <img src={linkedin} alt="Meu LinkedIn" />
                 </a>
               </li>
             </ul>
           </div>
 
-          <p className="cadastro-texto">
+          <p className="link-cadastro-texto">
             Ainda não tem conta? <a href="#" className="link-cadastro">Crie seu cadastro!</a>
           </p>
-
         </form>
       </div>
     </div>

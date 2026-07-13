@@ -65,7 +65,7 @@ function App() {
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/cmurilol" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/cmurilo1" target="_blank" rel="noopener noreferrer">
                   <img src={linkedin} alt="Meu LinkedIn" />
                 </a>
               </li>
